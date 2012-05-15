@@ -1,5 +1,5 @@
 //
-//  HelloWorldLayer.m
+//  MenuLayer.m
 //  birdgame
 //
 //  Created by Taylor Savage on 5/15/12.
@@ -8,24 +8,24 @@
 
 
 // Import the interfaces
-#import "HelloWorldLayer.h"
+#import "MenuLayer.h"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
 
-#pragma mark - HelloWorldLayer
+#pragma mark - MenuLayer
 
-// HelloWorldLayer implementation
-@implementation HelloWorldLayer
+// MenuLayer implementation
+@implementation MenuLayer
 
-// Helper class method that creates a Scene with the HelloWorldLayer as the only child.
+// Helper class method that creates a Scene with the MenuLayer as the only child.
 +(CCScene *) scene
 {
 	// 'scene' is an autorelease object.
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	HelloWorldLayer *layer = [HelloWorldLayer node];
+	MenuLayer *layer = [MenuLayer node];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];
