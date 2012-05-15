@@ -129,6 +129,7 @@
 		8AC43690156318CA000A53B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4368F156318CA000A53B2 /* main.m */; };
 		8AC43693156318CA000A53B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC43692156318CA000A53B2 /* AppDelegate.m */; };
 		8AC43696156318CA000A53B2 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC43695156318CA000A53B2 /* HelloWorldLayer.m */; };
+		BEFC55ED15631CF3002138D5 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC55EC15631CF3002138D5 /* GameObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -388,6 +389,8 @@
 		8AC43692156318CA000A53B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AC43694156318CA000A53B2 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		8AC43695156318CA000A53B2 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		BEFC55EB15631CF3002138D5 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		BEFC55EC15631CF3002138D5 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,6 +453,7 @@
 				8AC43692156318CA000A53B2 /* AppDelegate.m */,
 				8AC43694156318CA000A53B2 /* HelloWorldLayer.h */,
 				8AC43695156318CA000A53B2 /* HelloWorldLayer.m */,
+				BEFC55E915631CE0002138D5 /* GameObjects */,
 				8AC43521156318C7000A53B2 /* Resources */,
 				8AC43539156318C7000A53B2 /* libs */,
 				8AC4368D156318CA000A53B2 /* Supporting Files */,
@@ -816,6 +820,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BEFC55E915631CE0002138D5 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				BEFC55EB15631CF3002138D5 /* GameObject.h */,
+				BEFC55EC15631CF3002138D5 /* GameObject.m */,
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -989,6 +1002,7 @@
 				8AC43690156318CA000A53B2 /* main.m in Sources */,
 				8AC43693156318CA000A53B2 /* AppDelegate.m in Sources */,
 				8AC43696156318CA000A53B2 /* HelloWorldLayer.m in Sources */,
+				BEFC55ED15631CF3002138D5 /* GameObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1092,6 +1106,7 @@
 				8AC4369B156318CA000A53B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
