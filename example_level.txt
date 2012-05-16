@@ -1,5 +1,6 @@
 level : {
     name: "My First Level",
+    thumbnail: "FirstLevel.png",
     description: "It's a fun level!",
     background_tile: "Dirt.png",
     objects: [
