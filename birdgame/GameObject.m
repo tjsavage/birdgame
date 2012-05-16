@@ -9,7 +9,33 @@
 #import "GameObject.h"
 
 @implementation GameObject
-@synthesize objID, delta, sprite;
+@synthesize objID, objName, delta, sprite, appearTime;
+
+- (CGPoint)curPathPoint
+{
+	if(pathIndex < [path count])
+	   return CGPointFromString([path objectAtIndex:pathIndex]);
+	return CGPointZero;
+}
+
+- (id) initWithObjectID:(int)oID name:(NSString*)name appearTime:(int)time path:(NSArray*)points
+{
+	self = [super init];
+	if(self)
+	{
+		objID = oID;
+		self.objName = name;
+		
+		path = [[NSArray alloc] initWithArray:points];
+		pathIndex = 0;
+		
+		appearTime = time;
+		
+		self.sprite = [CCSprite spriteWithFile:[NSString stringWithFormat:@"obj%@.png", name]];
+		self.origin = [self curPathPoint];
+	}
+	return self;
+}
 
 - (void) setOrigin:(CGPoint)newO
 {
@@ -65,6 +91,8 @@
 
 - (void) dealloc
 {
+	[path release];
+	self.objName = nil;
 	self.sprite = nil;
 	[super dealloc];
 }
