@@ -1,5 +1,5 @@
 //
-//  GameLayer.h
+//  LevelSelectionLayer.h
 //  birdgame
 //
 //  Created by Taylor Savage on 5/15/12.
@@ -9,11 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
-@interface GameLayer : CCLayer {
+@interface LevelSelectionLayer : CCLayer {
     
 }
-
-+(CCScene *) scene;
-
 
 @end
