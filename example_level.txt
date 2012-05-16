@@ -4,7 +4,7 @@ level : {
     background_tile: "Dirt.png",
     objects: [
         {
-            image:"Shrub.png",
+            name:"Shrub"
             paths:[
                 [{x:100, y:50}],
             ],
@@ -12,7 +12,6 @@ level : {
         },
         {
             name:"WalkingPerson",
-            image:"Person.png",
             paths:[
                 [{x:0, y:40}, {x:100, y:40}],
                 [{x:0, y:10}, {x:100, y:10}],

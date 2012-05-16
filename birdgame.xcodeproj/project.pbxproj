@@ -130,7 +130,14 @@
 		8AC43690156318CA000A53B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4368F156318CA000A53B2 /* main.m */; };
 		8AC43693156318CA000A53B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC43692156318CA000A53B2 /* AppDelegate.m */; };
 		8AC43696156318CA000A53B2 /* MenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC43695156318CA000A53B2 /* MenuLayer.m */; };
+		BE96E03515632FFF001DA15A /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96E02A15632FFF001DA15A /* NSObject+SBJSON.m */; };
+		BE96E03615632FFF001DA15A /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96E02C15632FFF001DA15A /* NSString+SBJSON.m */; };
+		BE96E03715632FFF001DA15A /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96E02E15632FFF001DA15A /* SBJSON.m */; };
+		BE96E03815632FFF001DA15A /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96E03015632FFF001DA15A /* SBJsonBase.m */; };
+		BE96E03915632FFF001DA15A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96E03215632FFF001DA15A /* SBJsonParser.m */; };
+		BE96E03A15632FFF001DA15A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96E03415632FFF001DA15A /* SBJsonWriter.m */; };
 		BEFC55ED15631CF3002138D5 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC55EC15631CF3002138D5 /* GameObject.m */; };
+		BEFC55F815632DD7002138D5 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC55F715632DD7002138D5 /* Level.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -392,8 +399,23 @@
 		8AC43692156318CA000A53B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AC43694156318CA000A53B2 /* MenuLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
 		8AC43695156318CA000A53B2 /* MenuLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuLayer.m; sourceTree = "<group>"; };
+		BE96E02815632FFF001DA15A /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		BE96E02915632FFF001DA15A /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		BE96E02A15632FFF001DA15A /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		BE96E02B15632FFF001DA15A /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		BE96E02C15632FFF001DA15A /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		BE96E02D15632FFF001DA15A /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		BE96E02E15632FFF001DA15A /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		BE96E02F15632FFF001DA15A /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		BE96E03015632FFF001DA15A /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		BE96E03115632FFF001DA15A /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		BE96E03215632FFF001DA15A /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		BE96E03315632FFF001DA15A /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		BE96E03415632FFF001DA15A /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		BEFC55EB15631CF3002138D5 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		BEFC55EC15631CF3002138D5 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		BEFC55F615632DD7002138D5 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		BEFC55F715632DD7002138D5 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,6 +487,8 @@
 			children = (
 				8AC43691156318CA000A53B2 /* AppDelegate.h */,
 				8AC43692156318CA000A53B2 /* AppDelegate.m */,
+				BEFC55F615632DD7002138D5 /* Level.h */,
+				BEFC55F715632DD7002138D5 /* Level.m */,
 				8A6B21851563242C0034562D /* CCLayers */,
 				BEFC55E915631CE0002138D5 /* GameObjects */,
 				8AC43521156318C7000A53B2 /* Resources */,
@@ -499,6 +523,7 @@
 				8AC4364B156318CA000A53B2 /* LICENSE_cocos2d.txt */,
 				8AC4365A156318CA000A53B2 /* LICENSE_CocosDenshion.txt */,
 				8AC4368C156318CA000A53B2 /* LICENSE_Kazmath.txt */,
+				BE96E02715632FFF001DA15A /* JSON */,
 				8AC4353A156318C7000A53B2 /* cocos2d */,
 				8AC4364C156318CA000A53B2 /* CocosDenshion */,
 				8AC4365B156318CA000A53B2 /* kazmath */,
@@ -833,6 +858,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE96E02715632FFF001DA15A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BE96E02815632FFF001DA15A /* JSON.h */,
+				BE96E02915632FFF001DA15A /* NSObject+SBJSON.h */,
+				BE96E02A15632FFF001DA15A /* NSObject+SBJSON.m */,
+				BE96E02B15632FFF001DA15A /* NSString+SBJSON.h */,
+				BE96E02C15632FFF001DA15A /* NSString+SBJSON.m */,
+				BE96E02D15632FFF001DA15A /* SBJSON.h */,
+				BE96E02E15632FFF001DA15A /* SBJSON.m */,
+				BE96E02F15632FFF001DA15A /* SBJsonBase.h */,
+				BE96E03015632FFF001DA15A /* SBJsonBase.m */,
+				BE96E03115632FFF001DA15A /* SBJsonParser.h */,
+				BE96E03215632FFF001DA15A /* SBJsonParser.m */,
+				BE96E03315632FFF001DA15A /* SBJsonWriter.h */,
+				BE96E03415632FFF001DA15A /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		BEFC55E915631CE0002138D5 /* GameObjects */ = {
 			isa = PBXGroup;
 			children = (
@@ -1017,6 +1062,13 @@
 				8AC43696156318CA000A53B2 /* MenuLayer.m in Sources */,
 				BEFC55ED15631CF3002138D5 /* GameObject.m in Sources */,
 				8A6B21801563233A0034562D /* GameLayer.m in Sources */,
+				BEFC55F815632DD7002138D5 /* Level.m in Sources */,
+				BE96E03515632FFF001DA15A /* NSObject+SBJSON.m in Sources */,
+				BE96E03615632FFF001DA15A /* NSString+SBJSON.m in Sources */,
+				BE96E03715632FFF001DA15A /* SBJSON.m in Sources */,
+				BE96E03815632FFF001DA15A /* SBJsonBase.m in Sources */,
+				BE96E03915632FFF001DA15A /* SBJsonParser.m in Sources */,
+				BE96E03A15632FFF001DA15A /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
