@@ -9,6 +9,7 @@
 
 // Import the interfaces
 #import "MenuLayer.h"
+#import "GameLayer.h"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
@@ -42,7 +43,7 @@
 	if( (self=[super init]) ) {
 		
 		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
+		CCMenuItemLabel *label = [CCMenuItemLabel itemWithLabel:[CCLabelTTF labelWithString:@"Start Game" fontName:@"Marker Felt" fontSize:24] target:self selector:@selector(startGame)];
 
 		// ask director for the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
@@ -102,6 +103,11 @@
 
 	}
 	return self;
+}
+
+- (void) startGame
+{
+    [[CCDirector sharedDirector] pushScene:[GameLayer scene]];
 }
 
 // on "dealloc" you need to release all your retained objects

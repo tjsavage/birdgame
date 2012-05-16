@@ -1,0 +1,32 @@
+level : {
+    name: "My First Level",
+    description: "It's a fun level!",
+    background_tile: "Dirt.png",
+    objects: [
+        {
+            image:"Shrub.png",
+            paths:[
+                [{x:100, y:50}],
+            ],
+            starting_times:[0],
+        },
+        {
+            name:"WalkingPerson",
+            image:"Person.png",
+            paths:[
+                [{x:0, y:40}, {x:100, y:40}],
+                [{x:0, y:10}, {x:100, y:10}],
+            ],
+            starting_times:[10, 25],
+        }
+    ],
+    
+    goals: [
+        {
+            name:"People Pooper",
+            description:"Poop on all the people",
+            targets:["WalkingPerson", "SittingPerson"],
+            reward:10,
+        },
+    ],
+}

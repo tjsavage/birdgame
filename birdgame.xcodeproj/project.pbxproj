@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6B21801563233A0034562D /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B217F1563233A0034562D /* GameLayer.m */; };
 		8AC4350F156318C7000A53B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4350E156318C7000A53B2 /* QuartzCore.framework */; };
 		8AC43511156318C7000A53B2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC43510156318C7000A53B2 /* OpenGLES.framework */; };
 		8AC43513156318C7000A53B2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC43512156318C7000A53B2 /* OpenAL.framework */; };
@@ -133,6 +134,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A6B217E1563233A0034562D /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		8A6B217F1563233A0034562D /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
 		8AC4350A156318C7000A53B2 /* birdgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC4350E156318C7000A53B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8AC43510156318C7000A53B2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -413,6 +416,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A6B21851563242C0034562D /* CCLayers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC43694156318CA000A53B2 /* MenuLayer.h */,
+				8AC43695156318CA000A53B2 /* MenuLayer.m */,
+				8A6B217E1563233A0034562D /* GameLayer.h */,
+				8A6B217F1563233A0034562D /* GameLayer.m */,
+			);
+			name = CCLayers;
+			sourceTree = "<group>";
+		};
 		8AC434FF156318C6000A53B2 = {
 			isa = PBXGroup;
 			children = (
@@ -451,8 +465,7 @@
 			children = (
 				8AC43691156318CA000A53B2 /* AppDelegate.h */,
 				8AC43692156318CA000A53B2 /* AppDelegate.m */,
-				8AC43694156318CA000A53B2 /* MenuLayer.h */,
-				8AC43695156318CA000A53B2 /* MenuLayer.m */,
+				8A6B21851563242C0034562D /* CCLayers */,
 				BEFC55E915631CE0002138D5 /* GameObjects */,
 				8AC43521156318C7000A53B2 /* Resources */,
 				8AC43539156318C7000A53B2 /* libs */,
@@ -1003,6 +1016,7 @@
 				8AC43693156318CA000A53B2 /* AppDelegate.m in Sources */,
 				8AC43696156318CA000A53B2 /* MenuLayer.m in Sources */,
 				BEFC55ED15631CF3002138D5 /* GameObject.m in Sources */,
+				8A6B21801563233A0034562D /* GameLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
