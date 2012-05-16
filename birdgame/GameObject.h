@@ -11,10 +11,14 @@
 
 @interface GameObject : NSObject
 {
+	int objID;
+	
 	CGPoint delta;
 	
 	CCSprite *sprite;
 }
+
+@property int objID;
 
 @property CGPoint delta;
 @property (nonatomic, retain) CCSprite *sprite;

@@ -9,7 +9,7 @@
 #import "GameObject.h"
 
 @implementation GameObject
-@synthesize delta, sprite;
+@synthesize objID, delta, sprite;
 
 - (void) setOrigin:(CGPoint)newO
 {
